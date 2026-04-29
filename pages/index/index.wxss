@@ -1,0 +1,52 @@
+page { background: #f5f6fc; }
+.page { padding: 24rpx; color: #1d2250; }
+.header-card,.card,.feature-grid,.banner { border-radius: 28rpx; }
+.header-card,.card,.feature-grid,.banner,.report-item,.qa-item,.feature-item { background: #fff; }
+.top-row,.hero-row,.section-title-row,.report-item,.trust-row { display: flex; }
+.top-row,.section-title-row { justify-content: space-between; align-items: center; }
+.hero-row { margin-top: 24rpx; }
+.city-pill { background: #f4f5fb; padding: 16rpx 24rpx; border-radius: 999rpx; font-size: 30rpx; }
+.top-icons { display: flex; gap: 16rpx; }
+.icon-btn,.avatar { width: 72rpx; height: 72rpx; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; }
+.title { font-size: 66rpx; font-weight: 700; }
+.accent { color: #6250ff; }
+.subtitle { display: block; margin-top: 14rpx; color: #60678a; }
+.robot { width: 250rpx; height: 250rpx; }
+.ask-box { margin-top: 24rpx; border: 2rpx solid #5b58ff; border-radius: 36rpx; padding: 28rpx; position: relative; }
+.ask-main { font-size: 40rpx; color: #979cb4; }
+.tag-list { margin-top: 20rpx; display: flex; flex-wrap: wrap; gap: 16rpx; }
+.tag { background: #f5f6fb; color: #767d98; border-radius: 999rpx; padding: 10rpx 18rpx; }
+.mic-btn { position: absolute; right: 28rpx; top: 50%; transform: translateY(-50%); width: 92rpx; height: 92rpx; border-radius: 50%; background: linear-gradient(135deg,#7367ff,#4a44f8); color:#fff; display:flex; align-items:center; justify-content:center; font-size: 42rpx; }
+.card { margin-top: 24rpx; padding: 24rpx; }
+.section-title { font-size: 42rpx; font-weight: 700; }
+.section-extra { color: #8d93ad; }
+.qa-grid { margin-top: 20rpx; display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; }
+.qa-item { border: 2rpx solid #edf0f7; border-radius: 20rpx; padding: 18rpx; display:flex; align-items:center; }
+.qa-text { flex: 1; margin: 0 10rpx; color:#384062; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-icon,.arrow { color:#6558ff; }
+.feature-grid { margin-top: 24rpx; padding: 0; display:grid; grid-template-columns: repeat(4, 1fr); gap: 16rpx; background: transparent; }
+.feature-item { border-radius: 20rpx; text-align: center; padding: 22rpx 10rpx; }
+.feature-icon { font-size: 52rpx; }
+.feature-title { display:block; font-size: 34rpx; margin-top: 12rpx; font-weight: 700; }
+.feature-sub { display:block; color: #8f95ad; font-size: 24rpx; margin-top: 8rpx; }
+.banner { margin-top: 24rpx; padding: 34rpx; color: #fff; background: linear-gradient(135deg,#5d73ff,#5b2eff); }
+.banner-title { display:block; font-size: 52rpx; font-weight:700; }
+.banner-sub { display:block; margin-top: 14rpx; opacity: .9; }
+.banner-btn { margin-top: 20rpx; display: inline-block; background:#fff; color:#5d58ff; padding: 12rpx 26rpx; border-radius: 999rpx; }
+.trust-row { justify-content: space-between; gap: 10rpx; }
+.trust-item { flex:1; display:flex; align-items:center; gap: 8rpx; }
+.trust-title { display:block; font-size: 28rpx; }
+.trust-sub { display:block; color:#8f95ad; font-size: 22rpx; }
+.report-item { margin-top: 20rpx; border: 2rpx solid #edf0f7; border-radius: 20rpx; padding: 18rpx; align-items: center; }
+.doc-thumb { width: 96rpx; height: 96rpx; border-radius: 16rpx; background:#efecff; display:flex; align-items:center; justify-content:center; font-size: 50rpx; }
+.report-main { flex:1; margin-left: 16rpx; }
+.report-title { font-size: 34rpx; font-weight: 700; }
+.chips { margin: 10rpx 0; }
+.chip { background:#eff0ff; color:#5f57ff; border-radius: 8rpx; font-size:22rpx; padding: 4rpx 10rpx; margin-right: 8rpx; }
+.report-time { color:#8f95ad; font-size: 24rpx; }
+.report-btn { border:2rpx solid #6558ff; color:#6558ff; padding: 12rpx 20rpx; border-radius: 999rpx; }
+.tabbar-placeholder { height: 130rpx; }
+.tabbar { position: fixed; left:0; right:0; bottom:0; height:120rpx; background:#fff; border-top:1rpx solid #eceef5; display:flex; justify-content:space-around; align-items:center; }
+.tab { color:#2e355b; font-size: 26rpx; }
+.tab.active,.tab.center { color:#5d58ff; font-weight:700; }
+.tab.center { transform: translateY(-14rpx); background: #f0eeff; padding: 14rpx 24rpx; border-radius: 999rpx; }
