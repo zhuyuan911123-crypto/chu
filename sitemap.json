@@ -1,0 +1,4 @@
+{
+  "desc": "仅用于开发演示",
+  "rules": [{ "action": "allow", "page": "*" }]
+}

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "成都升学助手",
+    "navigationBarBackgroundColor": "#f5f6fc",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f6fc"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
